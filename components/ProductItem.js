@@ -58,8 +58,8 @@ export default function ProductItem({ product }) {
                       <Image
                         src={product.image}
                         alt={product.name}
-                        height={50}
-                        width={50}
+                        height={200}
+                        width={200}
                       ></Image>
                       <p>{product.brand}</p>
                       <p>${product.price}</p>
